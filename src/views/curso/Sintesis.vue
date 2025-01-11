@@ -2,11 +2,11 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La unidad I:  Introducción al derecho y sus fuentes, establece los fundamentos teóricos esenciales para comprender el origen de las normas jurídicas y su aplicación. 
-    figure
-      img(src='@/assets/componentes/sintesis-test.png', alt='Texto que describa la imagen')
-    
-
+    p(data-aos="fade-up").mb-5 Esta unidad analiza el sistema de ciencia, tecnología e innovación en Colombia, describiendo el marco institucional, la educación y formación en CTeI, así como las iniciativas de investigación y desarrollo que fomentan la innovación en sectores estratégicos. También revisa el ecosistema de emprendimiento que promueve la democratización del conocimiento, retos y oportunidades para el país.
+      .row.justify-content-center
+        .col-lg-12.mb-5
+          figure.bg-color-sintesis.p-5.brounded
+            img(src='@/assets/curso/sintesis/sintesis.svg', alt='')
 </template>
 <script>
 import BannerInterno from '../../components/plantilla/BannerInterno'

@@ -1,3 +1,32 @@
+.bg
+  &-1
+    background-color: #DBEBF6
+  &-2
+    background-color: #FBEBFC
+  &-3
+    background-color: #F0E9F6
+
+  &-4
+    background-color: #FEF6E8
+  &-5
+    background-color: #E9F2FA
+  &-6
+    background-color: #FBEBFC
+  &-7
+    background-color: #ECF4FA
+  &-8
+    background-color: #FEF8E7
+  &-9
+    background-color: #E5F8F8
+  &-10
+    background-color: #FDF3D2
+.bg-fondo
+  &-1
+    background-image: url("../assets/bg/1.svg") !important
+    background-position: top
+  &-2
+    background-image: url("../assets/bg/2.svg") !important
+    background-position: bottom
 
 .banner-principal-decorativo
   &-1
@@ -17,6 +46,170 @@
 
   100%
     transform: translateY(0px)
-
+.mb-cus
+  @media screen and (max-width: $bp-max-sm)
+    margin-bottom: 1rem !important
+.img-infografica 
+    background-color: transparent !important
+.ml-1
+  margin-left: 3rem
+.bb-1
+  border-bottom: 1px solid #000
 .container.tarjeta
   overflow-y: hidden
+.h-card
+  &-1
+    height: 320px
+    @media screen and (max-width: $bp-max-sm)
+      height: auto
+  &-2
+    height: 320px
+    @media screen and (max-width: $bp-max-sm)
+      height: auto
+.br-10
+  border-radius: 10px
+.icon-list 
+    font-size: 6px;
+    vertical-align: super;
+    color: #000 !important;
+.lista-ul--color li > i:first-of-type 
+    top: 10px;
+.lista-ol--cuadro__vineta.bg-cus
+    background-color: #FCE8A6
+/*COMPONENTS STYLES*/
+.boton.color-adicional-1, .color-adicional-1.boton--sm 
+    background-color: $color-adicional-1;
+.tarjeta.color-adicional-2
+    background-color: #FEF8E7
+.iniciar-btn-container .icon
+  background-color: #886C12 !important
+.acordion__header
+  background-color: #FBEBFC !important
+
+.acordion__header--active
+  background-color: #431544 !important
+  h4, i
+    color: #fff !important
+
+.acordion__contenido
+  background-color: #FBEBFC !important
+.slyder-a__tipo-b
+  background-color: #004A54 !important
+.slyder-a__bullets__item
+  border-color: #319AA8 !important
+  background-color: #319AA8 !important
+.slyder-a__bullets__item--active
+  background-color: #99CED6 !important
+  border-color: #99CED6 !important
+.shadow-soft 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05);
+i.fas.fa-circle.color-acento-contenido
+  color: $color-acento-contenido
+  font-size: 12px
+.bg-color-white
+    background-color: #fff
+.linea-tiempo-d__item__content__title,
+.linea-tiempo-d__item__number
+    background-color: #FBEBFC !important
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: $color-acento-contenido !important
+.linea-tiempo-d__item__content__title.active
+  background-color: $color-acento-contenido !important
+.linea-tiempo-d__item__content__slot
+  background-color: #F6C7F7 !important
+.titulo-figura
+  margin-bottom: 24px
+  border-left: 0px solid
+  padding: 5px 0 5px 0px
+  h5
+    display: inline-block
+    margin-right: 10px
+    margin-bottom: 0
+.slyder-f__btn i 
+    background-color: $color-primario
+    color: #fff
+.tabla-a thead th
+    background-color: $color-primario !important
+.tabla-a tbody tr:nth-child(even),
+.tabla-a tbody tr:nth-child(odd)
+    background-color: #FDF3D2 !important
+.tabla-a th, .tabla-a td
+    border: 1px solid #707070 !important
+
+// Variables#0c1512#0c1512
+$custom-card-border-radius: 0px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #FFF
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 322px
+.custom-image-card
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: $custom-card-img-height
+    object-fit: cover
+
+.custom-image-card-2
+  border-radius: 10px
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: 224px
+    object-fit: cover
+
+
+.custom-image-card-3
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: #ECF4FA
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: $custom-card-img-height
+    object-fit: cover
+// Full Width Background
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.ctn-actividad
+  background-color: #ebf1f5 !important
+  border-top: 5px solid #f5c145 !important
+  margin-top: 2rem
+
+.material-complem
+  p,a
+    font-size: 1rem !important
+  a
+    text-decoration: none
+    color: $color-sistema-texto
+.border-top
+  &.color-primario
+    border-top: 5px solid $color-primario !important
+  &.color-secundario
+    border-top: 5px solid $color-secundario !important
+  &.color-terciario
+    border-top: 5px solid $color-terciario !important
