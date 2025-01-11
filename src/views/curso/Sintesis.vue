@@ -2,11 +2,12 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p(data-aos="fade-up").mb-5 Esta unidad analiza el sistema de ciencia, tecnología e innovación en Colombia, describiendo el marco institucional, la educación y formación en CTeI, así como las iniciativas de investigación y desarrollo que fomentan la innovación en sectores estratégicos. También revisa el ecosistema de emprendimiento que promueve la democratización del conocimiento, retos y oportunidades para el país.
-      .row.justify-content-center
-        .col-lg-12.mb-5
-          figure.bg-color-sintesis.p-5.brounded
-            img(src='@/assets/curso/sintesis/sintesis.svg', alt='')
+    p(data-aos="fade-up").mb-5 La Unidad 3: Fundamentos de geometría plana y medición de figuras simples, establece los conceptos esenciales para calcular perímetros y áreas de figuras bidimensionales, y realizar conversiones de unidades. Esta unidad promueve un pensamiento analítico y espacial, aplicable en disciplinas como la ingeniería, la arquitectura y el diseño.
+    p A través de ejemplos prácticos, los estudiantes aprenden a descomponer problemas complejos en elementos simples, facilitando la resolución en situaciones reales, de manera precisa. Este enfoque práctico, asegura que los conocimientos adquiridos se conviertan en herramientas útiles para su vida profesional y académica.
+    .row.justify-content-center
+      .col-lg-12.mb-5
+        figure.bg-color-sintesis.p-5.brounded
+          img(src='@/assets/curso/sintesis/sintesis.svg', alt='')
 </template>
 <script>
 import BannerInterno from '../../components/plantilla/BannerInterno'

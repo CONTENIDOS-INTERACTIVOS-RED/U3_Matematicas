@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Esta unidad, Desarrollo Físico y Motor en Niños y Adolescentes, explora los cambios corporales y habilidades motrices clave desde la niñez hasta la adolescencia. Los estudiantes comprenderán cómo factores como genética, nutrición y entorno influyen en el crecimiento y las transformaciones hormonales de la pubertad, lo cual les permitirá apoyar a los jóvenes en cada etapa de su desarrollo.
+              p.descripcion.mb-4 Desde la antigüedad, la geometría ha sido una herramienta esencial en diversas disciplinas para resolver problemas relacionados con las formas y su representación. La geometría plana, que estudia las propiedades de las figuras bidimensionales, es fundamental para entender la disposición de espacios y calcular medidas de perímetros y áreas.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárese para descubrir cómo la geometría plana transforma nuestra percepción del mundo y se convierte en una herramienta práctica para enfrentar desafíos profesionales!
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -146,11 +146,11 @@ export default {
 .iniciar-btn-container
   .iniciar-btn-text
     transition: all 0.25s ease-in-out
-    background-color: #9EF0FD !important
+    background-color: #F8C623 !important
     color: #0B0A0A !important
   .icon
     transition: all 0.25s ease-in-out
-    background-color: #083E61 !important
+    background-color: #886C12 !important
   &:hover
     .icon
       transform: scale(1.06)
