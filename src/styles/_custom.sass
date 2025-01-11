@@ -22,6 +22,10 @@
     background-color: #FDF3D2
   &-11
     background-color: #FFFBE8
+  &-12
+    background-color: #EBF0F7
+  &-13
+    background-color: #F5F7FB
 .bg-fondo
   &-1
     background-image: url("../assets/bg/1.svg") !important
@@ -139,7 +143,8 @@ i.fas.fa-circle.color-acento-contenido
     background-color: #FDF3D2 !important
 .tabla-a th, .tabla-a td
     border: 1px solid #707070 !important
-
+.border-left-cus
+  border-left: 1px solid #707070
 // Variables#0c1512#0c1512
 $custom-card-border-radius: 0px
 $custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
@@ -219,3 +224,11 @@ $custom-card-img-height: 322px
     border-top: 5px solid $color-terciario !important
 .img-infografica__card, .img-infografica-b__card 
     width: 600px;
+.custom-image-card__image 
+    height: max-content;
+    -o-object-fit: cover;
+    object-fit: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+.br-15
+  border-radius: 15px

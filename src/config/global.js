@@ -43,19 +43,19 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: '',
+        titulo: 'Unidades de medida y conversión',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: '',
+            titulo: 'Conceptos básicos de unidades de medida',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: '',
+            titulo: 'Sistemas de medición',
             hash: 't_2_2',
           },
           {
