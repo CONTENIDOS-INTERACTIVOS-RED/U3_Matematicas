@@ -23,7 +23,7 @@
       .col-sm-12.col-lg-6
         TarjetaAudio.color-primario.mb-3(
           texto="Fundamentos conceptuales de geometría plana"
-          :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+          :audio="require('../../assets/componentes/audios/fundamentos_conceptuales_geometria_plana.mp3')"
         )
 
     #t_1_2.titulo-segundo(data-aos="fade-right")
