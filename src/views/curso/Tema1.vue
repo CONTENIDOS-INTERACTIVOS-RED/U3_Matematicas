@@ -242,7 +242,7 @@
           .col-lg-7
              h2.mb-4 Ejercicios adicionales
              p.mb-4 El cálculo de áreas y perímetros de figuras geométricas es una habilidad fundamental en matemáticas que permite resolver problemas cotidianos de manera práctica y eficiente. En el PDF #[strong Ejercicios adicionales], se presentan ejemplos detallados que abarcan desde figuras simples, como triángulos y cuadrados, hasta figuras más complejas, como trapecios y pentágonos. A través de estos ejercicios, se refuerza la comprensión de las fórmulas básicas, fomentando el desarrollo de un pensamiento lógico-matemático aplicable en contextos académicos y profesionales.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/ejercicios_adicionales.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto
@@ -278,7 +278,7 @@
           .col-lg-7
              h2.mb-4 Ejercicios resueltos con enfoque multidisciplinario 
              p.mb-4 El uso de principios geométricos en problemas prácticos permite optimizar recursos y tomar decisiones estratégicas en diversos contextos profesionales. En el PDF #[strong Ejercicios resueltos con enfoque multidisciplinario], se presentan casos aplicados que ilustran cómo la geometría es una herramienta clave en la reorganización de espacios laborales, la representación financiera y el diseño digital. A través de estos ejercicios, se fomenta la capacidad analítica y se promueve la aplicación de soluciones innovadoras mediante el uso de figuras y cálculos geométricos.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/ejercicios_resueltos_multidisciplinario.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto

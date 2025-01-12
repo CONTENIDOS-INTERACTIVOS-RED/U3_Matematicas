@@ -210,7 +210,7 @@
           .col-lg-7
              h2.mb-4 Ejercicios resueltos 
              p.mb-4 Las conversiones entre diferentes unidades de medida son esenciales para interpretar datos de manera correcta en diversas disciplinas, desde la ciencia hasta la ingeniería. En el PDF #[strong Ejercicios resueltos], se presentan ejemplos detallados que abarcan la conversión de unidades de longitud, peso, temperatura, energía y tiempo, entre otras. Estos ejercicios ofrecen un enfoque práctico para reforzar habilidades matemáticas, permitiendo aplicar los factores de conversión de forma precisa y efectiva en contextos académicos y profesionales.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/ejercicios_resueltos.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto
