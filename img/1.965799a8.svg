@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1332.782" height="425.268" viewBox="0 0 1332.782 425.268">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="0.824" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fffffe" stop-opacity="0"/>
+      <stop offset="1" stop-color="#e3f3f4"/>
+    </linearGradient>
+  </defs>
+  <path id="Fondo_Curvo" d="M1332.782,507.679S1276.7,482.724,1204.5,472.787c-73.448-9.937-146.543-18.767-214.149-16.369-68.854,1.351-176.032,10.642-245.336,23.359s-253.652,42.905-310.481,51.2c-56.829,7.249-110.745,14.169-219.378,10.252S18.572,526.7,0,515.31V117.1H1332.782Z" transform="translate(0 -117.096)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+</svg>
