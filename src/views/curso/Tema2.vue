@@ -227,7 +227,7 @@
 
     p.mb-4(data-aos="fade-right") Las escalas representan sistemas graduados que  permiten cuantificar magnitudes con diferentes niveles de detalle. Comprender las escalas implica reconocer las limitaciones inherentes a cada método de medición, identificando los márgenes de error y desarrollando estrategias para minimizarlos en diferentes contextos científicos y técnicos.
     h2.mb-3(data-aos="fade-right") Ejercicios adicionales resueltos
-    .bg-full-width.bg-fondo-2.mb-5(data-aos="fade-right")
+    .bg-full-width.bg-fondo-2.mb-0(data-aos="fade-right")
       .p-4.p-md-5
         SlyderA(tipo='b').bg-white
           .row.align-items-center.p-4.p-md-5
@@ -239,7 +239,10 @@
               p.mb-0 1. Recordar la relación. 1 metro = 100 centímetros.
               p.mb-0 2. Multiplicar el valor en metros por 100.
               p.mb-0 3. Cálculo. 5.6 m × 100 = 560 cm.
-              p.mb-0 4. Resultado final. 560 centímetros.
+              p.mb-3 4. Resultado final. 560 centímetros.
+              figure
+                img(src='@/assets/curso/t2/ej1.svg', alt='Medición con regla', style='max-width: 389px')
+              
             .col-lg-5.d-none.d-lg-block
               img(src='@/assets/curso/t2/12.png', alt='Medición con regla')
 
@@ -252,7 +255,9 @@
               p.mb-0 1. Recordar la relación. 1 hectárea = 10,000 metros cuadrados.
               p.mb-0 2. Dividir el área en metros cuadrados por 10,000.
               p.mb-0 3. Cálculo. 2500 m² ÷ 10,000 = 0.25 hectáreas.
-              p.mb-0 4. Resultado final. 0.25 hectáreas.
+              p.mb-3 4. Resultado final. 0.25 hectáreas.
+              figure
+                img(src='@/assets/curso/t2/ej2.svg', alt='Medición con regla', style='max-width: 244px')
             .col-lg-5.d-none.d-lg-block
               img(src='@/assets/curso/t2/13.png', alt='Diagrama de área')
 
@@ -265,7 +270,9 @@
               p.mb-0 1. Recordar la relación. 1 metro cúbico = 1,000,000 centímetros cúbicos.
               p.mb-0 2. Dividir el volumen en centímetros cúbicos por 1,000,000.
               p.mb-0 3. Cálculo. 7500 cm³ ÷ 1,000,000 = 0.0075 metros cúbicos.
-              p.mb-0 4. Resultado final. 0.0075 m³.
+              p.mb-3 4. Resultado final. 0.0075 m³.
+              figure
+                img(src='@/assets/curso/t2/ej3.svg', alt='Medición con regla', style='max-width: 264px')
             .col-lg-5.d-none.d-lg-block
               img(src='@/assets/curso/t2/14.png', alt='Figuras geométricas 3D')
 
