@@ -178,7 +178,7 @@
     p.mb-4(data-aos="fade-right") La geometría plana, introduce al estudio de figuras bidimensionales, donde se comprenderá que cada forma geométrica, posee características únicas que determinan su perímetro y área. 
     .bg-7.p-4.mb-4(data-aos="fade-right")
       p.mb-0.fw-bold El perímetro representa la distancia total alrededor de una figura, mientras que el área, mide la superficie contenida dentro de sus límites. 
-    p.mb-4(data-aos="fade-right") Dominar estos conceptos le permitirá resolver problemas matemáticos con precisión y desarrollar un pensamiento espacial más complejo.
+    p.mb-4(data-aos="fade-right") Imaginemos que diseñamos un jardín rectangular. Necesitaremos calcular el <b>área</b> para saber cuánto césped o plantas comprar y el <b>perímetro</b> para determinar la longitud de un sendero que lo rodee. Este ejemplo ilustra cómo los conceptos geométricos trascienden lo académico y se aplican directamente en situaciones prácticas.
     .bg-11.p-4.mb-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center.mb-0
         .col-sm-12.col-lg-7
@@ -313,11 +313,11 @@
             //- Referencia de youtube 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
-              a(href='https://youtu.be/AmttfBvgbY' target='_blank' rel='noopener noreferrer') Ayudinga! (2021). Geometría Plana | Área y Perímetro de los Cuadriláteros
+              a(href='https://youtu.be/Amttf-BvgbY?si=H2Fe75kuZMDLoseh' target='_blank' rel='noopener noreferrer') Ayudinga! (2021). Geometría Plana | Área y Perímetro de los Cuadriláteros
             
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
-              a(href='https://youtu.be/Ui9Yxm-TNTA' target='_blank' rel='noopener noreferrer') Sustraendo h. (2017). Cómo calcular el perímetro y el área
+              a(href='https://youtu.be/Ul9Yxm-TNTA?si=bu4lpXLuRuh-xPtC' target='_blank' rel='noopener noreferrer') Sustraendo h. (2017). Cómo calcular el perímetro y el área
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')

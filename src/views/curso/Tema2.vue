@@ -294,16 +294,11 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
-              a(href='https://www.metric-conversions.org/es/' target='_blank' rel='noopener noreferrer') Conversor unidades de medidas
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
               a(href='https://www.conversordeuniades.org/' target='_blank' rel='noopener noreferrer') Convertir medidas a cualquier unidad
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
               a(href='https://wordwall.net/es-cl/community/unidades-de-medidas' target='_blank' rel='noopener noreferrer') Unidades de medidas
-            
             
             //- Referencia de youtube 
             p.d-flex.my-4

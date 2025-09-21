@@ -16,7 +16,7 @@
           img(src='@/assets/curso/intro/2.png', alt='')
         .col-lg
           .p-4
-            p.mb-0 Estudiar geometría no solo implica resolver ejercicios, sino también comprender su utilidad en el mundo real. Desde diseñar un estructura hasta planificar un presupuesto, la geometría y la medición, son esenciales.
+            p.mb-0 Estudiar geometría no solo implica resolver ejercicios, sino también comprender su utilidad en el mundo real. Desde diseñar una estructura hasta planificar un presupuesto, la geometría y la medición, son esenciales.
 
     p.mb-4 Esta unidad le mostrará cómo estas habilidades son relevantes para su futuro, permitiéndole abordar desafíos técnicos de manera precisa y eficiente.
     p.mb-4 La unidad está organizada en varios subtemas que abarcan desde los fundamentos conceptuales de la geometría plana y la medición de figuras simples, hasta aplicaciones prácticas en diferentes áreas, como tecnología y economía. También desarrollará ejercicios aplicados a través de ejemplos, con el propósito de reforzar su comprensión, elaborados con un enfoque progresivo para facilitar su proceso de aprendizaje.
