@@ -294,7 +294,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
-              a(href='https://www.conversordeuniades.org/' target='_blank' rel='noopener noreferrer') Convertir medidas a cualquier unidad
+              a(href='https://www.conversordeunidades.org/' target='_blank' rel='noopener noreferrer') Convertir medidas a cualquier unidad
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
